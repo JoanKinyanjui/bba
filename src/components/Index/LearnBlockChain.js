@@ -43,8 +43,8 @@ function LearnBlockChain() {
                 </div>
             </div>
 
-            <div className='w-11/12 mx-auto py-4 md:w-2/3 md:py-0'>
-                <img  src='/images/graphic.png' className='px-4'/>
+            <div className='w-11/12 mx-auto py-4 md:w-2/3 md:py-0 '>
+                <img  src='/images/graphic.png' className='px-4 md:mx-auto'/>
             </div>
         </div>
     </div>
