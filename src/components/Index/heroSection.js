@@ -26,7 +26,7 @@ function HeroSection() {
 
   <div class="md:w-1/2  md:px-4">
     <div className={`${styles.item3Bg} grid items-center place-content-center`}>
-        <img src='/images/item3.png' className='h-[400px] w-full' />
+        <img src='/images/item3.png' className=' h-[400px] md:h-auto w-full object-cover'/>
     </div>
     <div>
         <p className={`${styles.TopicHere} py-4 pb-8`}>Bitcoin Liquidity on Binance Has More Than Halved Since February</p>
