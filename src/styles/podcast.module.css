@@ -1,0 +1,40 @@
+
+.HowToSendATransaction{
+    color: #000;
+font-family: Georgia;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+}
+.HowToSendATransactionMore{
+    color: #000;
+font-family: Georgia;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+}
+.OverflowPodcastsOnYoutube{
+    display: flex;
+    overflow: scroll;
+    width: 100%;
+}
+@media only screen and (max-width: 520px){
+    .HowToSendATransaction{
+        color: #000;
+    font-family: Georgia;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    }
+    .HowToSendATransactionMore{
+        color: #000;
+    font-family: Georgia;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    }
+}

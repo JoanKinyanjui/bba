@@ -1,0 +1,65 @@
+.TheLatest{
+    color: #A09;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 22.4px;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+.Blockchainappsinafricaword{
+    color: #0A0A0A;
+font-family: Playfair Display;
+font-size: 37px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+}
+.SpecDapp{
+    border-radius: 4px;
+background: rgba(170, 0, 153, 0.04);
+}
+@media only screen and (max-width: 768px){
+    .TheLatest{
+        color: #A09;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22.4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    }
+    .Blockchainappsinafricaword{
+        color: #0A0A0A;
+    font-family: Playfair Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    }
+}
+
+
+@media only screen and (max-width: 520px){
+    .TheLatest{
+        color: #A09;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22.4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    }
+    .Blockchainappsinafricaword{
+        color: #0A0A0A;
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    }
+}

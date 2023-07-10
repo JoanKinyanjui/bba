@@ -1,0 +1,174 @@
+.bottomLine{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.ImagesForRecentArticle{
+    width: 255px;
+height: 127.5px;
+}
+.ArrowDiv{
+      width: 32px;
+      height: 32px;
+      background-color: #A09;
+      border-radius: 100%;
+}
+.ParagraphTitle{
+    color: #0A0A0A;
+font-family: Playfair Display;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 37.2px;
+}
+.NewsLabel{
+    color: #A09;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 800;
+line-height: 21px;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.SmallSubTitles{
+    color: #999;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+}
+.ViewMore{
+    display: inline-flex;
+padding: 14px 20.92px 14px 20px;
+align-items: flex-start;
+border-radius: 50px;
+color: white;
+background: linear-gradient(93deg, #A09 0%, #4151A3 100%);
+}
+.TheLatest{
+    color: #A09;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 22.4px;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.RecentArticlesWord{
+    color: #0A0A0A;
+font-family: Playfair Display;
+font-size: 37px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+}
+@media only screen and (max-width: 768px){
+    .ParagraphTitle{
+        color: #0A0A0A;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37.2px;
+    }
+    .NewsLabel{
+        color: #A09;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    }
+    .SmallSubTitles{
+        color: #999;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    }
+    .ArrowDiv{
+        width: 26px;
+        height: 27px;
+        background-color: #A09;
+        border-radius: 100%;
+  }
+  .ViewMore{
+    display: inline-flex;
+padding: 10px 16.92px 10px 16px;
+align-items: flex-start;
+border-radius: 45px;
+background: linear-gradient(93deg, #A09 0%, #4151A3 100%);
+}
+.TheLatest{
+    color: #A09;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 800;
+line-height: 22.4px;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.RecentArticlesWord{
+    color: #0A0A0A;
+font-family: Playfair Display;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+}
+}
+@media only screen and (max-width: 520px){
+    .ParagraphTitle{
+        color: #0A0A0A;
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    }
+    .NewsLabel{
+        color: #A09;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    }
+    .SmallSubTitles{
+        color: #999;
+    font-family: Inter;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    }
+    .ArrowDiv{
+        width: 24px;
+        height: 24px;
+        background-color: #A09;
+        border-radius: 100%;
+  }
+  .ViewMore{
+    display: inline-flex;
+padding: 6px 12.92px 6px 12px;
+align-items: flex-start;
+border-radius: 50px;
+font-size: small;
+background: linear-gradient(93deg, #A09 0%, #4151A3 100%);
+}
+.RecentArticlesWord{
+    color: #0A0A0A;
+font-family: Playfair Display;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+}
+}

@@ -1,0 +1,10 @@
+.BackgrounIcon{
+    display: flex;
+width: 30px;
+height: 30px;
+padding: 6px;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+background: linear-gradient(135deg, #A09 0%, #CF3D69 100%);
+}

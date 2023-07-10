@@ -1,0 +1,104 @@
+.TheLatest{
+    color: #A09;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 22.4px;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.SubTitleHere{
+    color: #0A0A0A;
+font-family: Playfair Display;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: 46px;
+}
+.SubTitleHerePtag{
+    color: #0A0A0A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.8px;
+}
+.LearnMoreDivs{
+    width: 126.81px;
+    padding: 10px 0px 15px 0px;
+    justify-content: center;
+    margin-bottom: 20px ;
+    align-items: center;
+    border-radius: 10px;
+background: #FEFEFE;
+box-shadow: 0px 6px 15px -10px rgba(0, 0, 0, 0.40);
+}
+.NewsLearnWord{
+    color: #747474;
+text-align: center;
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: 18.2px;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.HowToSendATransaction{
+    color: #000;
+font-family: Georgia;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+}
+
+@media only screen and (max-width: 768px){
+    .TheLatest{
+        color: #A09;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22.4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    }
+    .SubTitleHere{
+        color: #0A0A0A;
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    }
+}
+
+@media only screen and (max-width: 520px){
+  
+    .SubTitleHere{
+        color: #0A0A0A;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    }
+    .SubTitleHerePtag{
+        color: #0A0A0A;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20.8px;
+    }
+    .HowToSendATransaction{
+        color: #000;
+    font-family: Georgia;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    }
+}
