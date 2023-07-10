@@ -4,7 +4,7 @@ import {articles} from '../Data/Articles'
 
 function RecentArticles() {
   return (
-    <div className=' w-screen px-2 md:px-0 md:w-10/12 mx-auto'>
+    <div className=' w-screen px-2 md:px-0 md:w-10/12 mx-auto py-8 md:py-24'>
 <div>
     <p className={`${styles.TheLatest}`} >THE LATEST</p>
    <div className='flex justify-between w-full items-center'>
@@ -18,7 +18,7 @@ function RecentArticles() {
 
        {/* desktop and mobile */}
        {articles.map((item)=>(
-       <div className='grid '>
+       <div className='grid ' key={item.id}>
       
    <div className='flex justify-between items-center py-4' key={item.id}>
    <div className={` w-[30%] h-[120px] md:h-[130px]`}>

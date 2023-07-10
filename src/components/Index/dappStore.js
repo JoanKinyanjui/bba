@@ -4,12 +4,12 @@ import { dapps } from '../Data/dapp';
 
 function DappStore() {
   return (
-    <div className='w-11/12 md:w-10/12 mx-auto '>
+    <div className='w-11/12 md:w-10/12 mx-auto py-8 md:py-24'>
         <p className={`${styles.TheLatest} `}>DAPPSTORE</p>
         <p className={`${styles.Blockchainappsinafricaword} py-4`}>BLOCKCHAIN APPLICATION IN AFRICA</p>
 
        {dapps.map((item)=>(
-         <div className={`${styles.SpecDapp} flex justify-between items-center px-2 md:px-4  mb-[15px] md:mb-[24px] py-2`}>
+         <div className={`${styles.SpecDapp} flex justify-between items-center px-2 md:px-4  mb-[15px] md:mb-[24px] py-2`} key={item.id}>
          <div className='flex'>
              <div>
                  <img src='/images/dapp.png'/>

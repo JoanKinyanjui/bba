@@ -10,10 +10,10 @@ function Nav() {
     <div>
 
         {/* Desktop */}
-        <div className='hidden md:grid w-10/12   mx-auto'>
+        <div className='hidden md:grid w-10/12  mx-auto'>
        <div className='flex place-content-center items-center'>
        <div className='flex place-content-start'>
-            <img  src='/images/menu.png'/>
+            <img  src='/images/logo.png'/>
         </div>
         <div className=' w-3/4 lg:w-1/2 mx-auto text-center'>
             <p className={`${styles.BBAName}`}>BLOCKCHAIN BUZZ AFRICA</p>
@@ -25,7 +25,7 @@ function Nav() {
         </div>
 
         {/* Mobile */}
-        <div className='grid md:hidden w-11/12 mx-auto'>
+        <div className='grid md:hidden w-11/12 mx-auto py-4'>
         <div className='flex place-content-center items-center justify-between'>
         <div className=''>
             <img  src='/images/menu.png '  className='w-[30px] h-[30px]'/>
@@ -34,9 +34,7 @@ function Nav() {
             <p className={`${styles.BBANameMobile}`}>BLOCKCHAIN BUZZ AFRICA</p>
         </div>
         </div>
-        <div className='py-4'>
-            <SpecNav />
-        </div>
+        
         </div>
     </div>
   )

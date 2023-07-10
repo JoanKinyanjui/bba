@@ -14,11 +14,11 @@ export default function Home() {
     <div>
       <Nav />
       <HeroSection />
-      {/* <RecentArticles /> */}
-      {/* <LearnBlockChain /> */}
-      {/* <PodcastsAndVideos /> */}
-      {/* <DappStore /> */}
-      {/* <Footer /> */}
+      <RecentArticles />
+      <LearnBlockChain />
+      <PodcastsAndVideos />
+      <DappStore />
+      <Footer />
     </div>
    </div>
   )

@@ -3,7 +3,7 @@ import styles from '../styles/footer.module.css';
 
 function Footer() {
   return (
-    <div className='w-11/12 md:w-10/12 mx-auto grid md:justify-between md:flex  py-8 pt-12 '>
+    <div className='w-11/12 md:w-10/12 mx-auto grid md:justify-between md:flex  py-8 md:py-24 '>
         
         <div className='grid md:flex w-full md:w-1/2  text-[#0A0A0A]'>
 
@@ -11,7 +11,7 @@ function Footer() {
               <img src='/images/logo.png'  className='mx-auto md:mx-0'/>
               <p className='text-[16px] py-4 '>© BBA 2023 All rights reserved </p>
             </div>
-         <div className='w-2/3 md:w-full mx-auto md:mx-0 flex py-8 md:py-4' >
+         <div className='w-full md:w-full mx-auto md:mx-0 flex py-8 md:py-4 items-center md:items-start' >
          <div className='w-1/2 md:w-full mx-auto md:mx-0 text-center md:text-start text-[14px] '>
              <p className='py-2' >Quick Links</p>
              <p className='py-2' >All News</p>
