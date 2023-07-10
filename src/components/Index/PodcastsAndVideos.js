@@ -17,7 +17,7 @@ function PodcastsAndVideos() {
 
 <div className={`flex overflow-x-auto ${styles.OverflowPodcastsOnYoutube} py-8 md:py-12 md:gap-[15px]`}>
   {podcasts.map((item) => (
-    <div className="flex-none w-1/2 md:w-1/4 mx-2">
+    <div className="flex-none w-1/2 md:w-1/4 mx-2" key={item.id}>
       <img src={item.image} className="" />
       <p className={`${styles.HowToSendATransactionMore} py-2`}>
         How to send a transaction using #ethersjs and #alchemy
