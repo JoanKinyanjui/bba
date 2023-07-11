@@ -10,7 +10,7 @@ function SpecNav() {
       <Link href='/news'>
       <div
         className={`${styles.SpecNavName} py-2 ${
-          router.pathname === '/news' ? styles.active : ''
+          router.pathname === '/news' ? styles.SpecNavNameActive : ''
         }`}
       >
         NEWS
@@ -19,7 +19,7 @@ function SpecNav() {
       <Link href='/learn'>
       <div
         className={`${styles.SpecNavName} py-2 ${
-          router.pathname === '/learn' ? styles.active : ''
+          router.pathname === '/learn' ? styles.SpecNavNameActive : ''
         }`}
       >
         LEARN
@@ -28,7 +28,7 @@ function SpecNav() {
       <Link href='/podcasts'>
       <div
         className={`${styles.SpecNavName} py-2 ${
-          router.pathname === '/podcasts' ? styles.active : ''
+          router.pathname === '/podcasts' ? styles.SpecNavNameActive : ''
         }`}
       >
         PODCASTS
@@ -37,7 +37,7 @@ function SpecNav() {
       <Link href='/dapp-store'>
       <div
         className={`${styles.SpecNavName} py-2 ${
-          router.pathname === '/dapp-store' ? styles.active : ''
+          router.pathname === '/dapp-store' ? styles.SpecNavNameActive : ''
         }`}
       >
         DAPP STORE
