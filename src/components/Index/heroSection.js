@@ -4,7 +4,7 @@ import { markets } from '../Data/markets';
 
 function HeroSection() {
   return (
-<div class="md:flex md:flex-row-reverse sm:grid sm:grid-cols-3 w-11/12 md:w-10/12 mx-auto md:items-center md:py-8">
+<div class="md:flex md:flex-row-reverse sm:grid sm:grid-cols-3 w-11/12 md:w-10/12 mx-auto md:mx-auto md:items-center md:py-8">
   
   <div class={`${styles.MarketsDivComponent} md:w-1/4 mx-auto  py-4 md:py-0 `}>
     <p className={`${styles.FeaturedName} px-4 py-4 hidden md:flex md:px-4`}>Markets</p>
