@@ -1,0 +1,169 @@
+.AdvanceYourCareer{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.LearnFromExperts{
+    background: -webkit-linear-gradient(#464BA2, #A10599);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+  font-weight: 700;
+}
+.StartLearningButton{
+width: 193px;
+height: 42px;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 14px;
+letter-spacing: 1px;
+text-transform: uppercase;
+border-radius: 50px;
+background: linear-gradient(93deg, #A09 0%, #4151A3 100%);
+
+}
+.GetMentorButton{
+    width: 193px;
+    height: 42px;
+    color: black;
+    border: 1px solid purple;
+    text-align: center;
+    font-family: Inter;
+    border-radius: 50px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.CourseDirectory{
+    color: #A09;
+font-family: Inter;
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 22.4px;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.ExploreMore{
+    color: #0A0A0A;
+text-align: center;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+@media only screen and (max-width: 768px){
+    .AdvanceYourCareer{
+        color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .LearnFromExperts{
+        background: -webkit-linear-gradient(#464BA2, #A10599);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+      font-weight: 700;
+    }
+    .StartLearningButton{
+        width: 156px;
+        height: 42px;
+        border-radius: 40px;
+        font-size: 12px;
+        font-weight: 600px;
+    }
+    .GetMentorButton{
+        width: 156px;
+        height: 42px;
+        border-radius: 40px;
+        font-weight: 600px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 520px){
+    .AdvanceYourCareer{
+        color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .LearnFromExperts{
+        background: -webkit-linear-gradient(#464BA2, #A10599);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+      font-weight: 700;
+    }
+    .StartLearningButton{
+        width: 156px;
+        height: 40px;
+        border-radius: 40px;
+        font-size: 12px;
+        font-weight: 600px;
+    }
+    .GetMentorButton{
+        width: 156px;
+        height: 40px;
+        border-radius: 40px;
+        font-weight: 600px;
+        font-size: 12px;
+    }
+    .CourseDirectory{
+        color: #A09;
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22.4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    }
+    .ExploreMore{
+        color: #0A0A0A;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    }
+}
