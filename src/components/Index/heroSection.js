@@ -4,7 +4,7 @@ import { markets } from '../Data/markets';
 
 function HeroSection() {
   return (
-<div class="md:flex md:flex-row-reverse sm:grid sm:grid-cols-3 w-11/12 md:w-10/12 mx-auto md:mx-auto md:items-center md:py-8">
+<div class="md:flex md:flex-row-reverse sm:grid sm:grid-cols-3 w-11/12 md:w-10/12 mx-auto md:items-center md:py-8">
   
   <div class={`${styles.MarketsDivComponent} md:w-1/4 mx-auto  py-4 md:py-0 `}>
     <p className={`${styles.FeaturedName} px-4 py-4 hidden md:flex md:px-4`}>Markets</p>
@@ -27,7 +27,7 @@ function HeroSection() {
 
   <div class={`${styles.MainAllNewsComponent} md:w-1/2  md:mx-4 py-8 md:py-0 "`}>
     {/* <div className={`${styles.item3Bg} grid items-center place-content-center`}> */}
-        <img src='/images/item4.png' className='w-full h-full'/>
+        <img src='/images/item4.png' className='w-full h-full py-4'/>
     {/* </div> */}
     <div>
         <p className={`${styles.TopicHere} py-4 pb-8`}>Bitcoin Liquidity on Binance Has More Than Halved Since February</p>
