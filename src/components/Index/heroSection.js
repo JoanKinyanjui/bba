@@ -5,7 +5,8 @@ import { markets } from '../Data/markets';
 function HeroSection() {
   return (
 <div class="md:flex md:flex-row-reverse sm:grid sm:grid-cols-3 w-11/12 md:w-10/12 mx-auto md:items-center md:py-8">
-  <div class="md:w-1/4 mx-auto  py-4 md:py-0 ">
+  
+  <div class={`${styles.MarketsDivComponent} md:w-1/4 mx-auto  py-4 md:py-0 `}>
     <p className={`${styles.FeaturedName} px-4 py-4 hidden md:flex md:px-4`}>Markets</p>
 <div className={`${styles.AllowStuff} overflow-x-auto whitespace-nowrap gap-[10px] md:gap-[0px] md:px-4`}>
 {markets.map((item)=>(
@@ -24,13 +25,13 @@ function HeroSection() {
 </div>
   </div>
 
-  <div class="md:w-1/2  md:px-4">
-    <div className={`${styles.item3Bg} grid items-center place-content-center`}>
-        <img src='/images/item3.png' className=' h-[400px] md:h-auto w-full object-cover'/>
-    </div>
+  <div class={`${styles.MainAllNewsComponent} md:w-1/2  md:mx-4 py-8 md:py-0 "`}>
+    {/* <div className={`${styles.item3Bg} grid items-center place-content-center`}> */}
+        <img src='/images/item4.png' className='w-full h-full'/>
+    {/* </div> */}
     <div>
         <p className={`${styles.TopicHere} py-4 pb-8`}>Bitcoin Liquidity on Binance Has More Than Halved Since February</p>
-       <div  className='flex w-3/4 py-4 md:w-3/4 justify-between text-[#4D4D4D] text-xs md:text-sm'>
+       <div  className='flex w-3/4  md:w-3/4 justify-between text-[#4D4D4D] text-xs md:text-sm'>
         <p>May 12 2023</p>
         <p>Author : Michael Loupa</p>
        </div>
@@ -42,18 +43,18 @@ function HeroSection() {
     </div>
   </div>
 
-  <div class="md:w-1/4 py-12 md:py-0 md:px-4 w-full ">
+  <div class={`${styles.AllFaeturedComponent} md:w-1/4 py-12 md:py-0 md:mx-4 w-full  items-center`}>
     <p className={`${styles.FeaturedName} px-4 py-4`} >Featured</p>
     <div className='flex md:grid w-full '>
         <div className='grid md:text-start text-start md:py-8'>
         <img   src='/images/item1.png'/>
-        <p className={`${styles.BuyArbitrum} px-4`}>Buy $BBPP NFTs on  ARBITRUM</p>
+        <p className={`${styles.BuyArbitrum} px-4 py-4`}>Buy $BBPP NFTs on  ARBITRUM</p>
         <div className={`${styles.BorderArbitrum}`}></div>
         </div>
-        <div className='grid md:text-start text-start  md:py-8'>
+        <div className='grid md:text-start text-start  md:py-8 mx-4 md:mx-0'>
         <img   src='/images/item1.png'/>
-        <p className={`${styles.BuyArbitrum} px-4`}>Buy $BBPP NFTs on  ARBITRUM</p>
-        <div className={`${styles.BorderArbitrum}`}></div>
+        <p className={`${styles.BuyArbitrum} px-4 py-4`}>Buy $BBPP NFTs on  ARBITRUM</p>
+        <div className={`${styles.BorderArbitrum} md:hidden flex`}></div>
         </div>
        
 
