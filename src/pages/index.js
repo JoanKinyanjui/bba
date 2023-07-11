@@ -14,7 +14,7 @@ export default function Home() {
     <div>
       <Nav />
       <HeroSection />
-      <RecentArticles />
+      <RecentArticles word='Recent' show={false} />
       <LearnBlockChain />
       <PodcastsAndVideos />
       <DappStore />

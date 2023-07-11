@@ -2,16 +2,16 @@ import React from 'react';
 import styles from '../../styles/Articles.module.css';
 import {articles} from '../Data/Articles'
 
-function RecentArticles() {
+function RecentArticles({word,show}) {
   return (
     <div className=' w-screen px-2 md:px-0 md:w-10/12 mx-auto py-8 md:py-24'>
 <div>
     <p className={`${styles.TheLatest}`} >THE LATEST</p>
    <div className='flex justify-between w-full items-center'>
-   <p className={`${styles.RecentArticlesWord}`}>Recent Articles</p>
-   <div className=''>
+   <p className={`${styles.RecentArticlesWord}`}>{word} Articles</p>
+   {show ? "" : <div className=''>
     <button className={`${styles.ViewMore}`}>View More</button>
-   </div>
+   </div>}
    </div>
 </div>
 
@@ -41,6 +41,7 @@ function RecentArticles() {
      <img  src='/images/arrow.png'/>
    </div>
    </div>
+
  </div>
       
      
@@ -49,6 +50,10 @@ function RecentArticles() {
 
        </div>
        ))}
+
+{show ? <div className='py-8 mt-4 mx-auto text-center'>
+    <button className={`${styles.ViewMore}`}>View More</button>
+   </div> : ""}
     </div>
   )
 }
