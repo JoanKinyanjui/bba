@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../../styles/Articles.module.css';
 import {articles} from '../Data/Articles'
+import Link from 'next/link';
 
 function RecentArticles({word,show}) {
   return (
@@ -8,9 +9,9 @@ function RecentArticles({word,show}) {
 <div>
     <p className={`${styles.TheLatest}`} >THE LATEST</p>
    <div className='flex justify-between w-full items-center'>
-   <p className={`${styles.RecentArticlesWord}`}>{word} Articles</p>
+   <p className={`${styles.RecentArticlesWord} py-4`}>{word} Articles</p>
    {show ? "" : <div className=''>
-    <button className={`${styles.ViewMore}`}>View More</button>
+  <Link href='/news'>  <button className={`${styles.ViewMore}`}>View More</button></Link>
    </div>}
    </div>
 </div>
@@ -20,7 +21,8 @@ function RecentArticles({word,show}) {
        {articles.map((item)=>(
        <div className='grid ' key={item.id}>
       
-   <div className='flex justify-between items-center py-4' key={item.id}>
+   <Link href={item.link} >
+   <div className='flex justify-between items-center py-4 md:py-8 ' key={item.id}>
    <div className={` w-[30%] h-[120px] md:h-[130px]`}>
      <img   src = '/images/article1.png' className=' w-5/6 md:w-3/4 h-full rounded-[10px] mx-auto' />
    </div>
@@ -42,7 +44,7 @@ function RecentArticles({word,show}) {
    </div>
    </div>
 
- </div>
+ </div></Link>
       
      
 
@@ -51,9 +53,11 @@ function RecentArticles({word,show}) {
        </div>
        ))}
 
-{show ? <div className='py-8 mt-4 mx-auto text-center'>
+{show ?
+<Link href="/news"><div className='py-8 mt-4 mx-auto text-center'>
     <button className={`${styles.ViewMore}`}>View More</button>
-   </div> : ""}
+   </div> </Link>
+   : ""}
     </div>
   )
 }

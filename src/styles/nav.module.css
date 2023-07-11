@@ -18,6 +18,9 @@ background: -webkit-linear-gradient(#4151A3, #AA0099);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.active{
+    color: #AA0099;
+}
 .SpecNavName{
     color: #4D4D4D;
 font-family: Istok Web;
