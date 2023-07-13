@@ -5,7 +5,7 @@ import { podcasts } from '../Data/podcasts';
 function PodcastsAndVideos() {
   return (
     <div className='w-11/12 md:w-10/12 mx-auto py-8 md:py-12'>
-  <div className='grid mx-auto w-full md:w-10/12 '>
+  <div className='grid mx-start w-full md:w-10/12 '>
    <img src='/images/base.png' className='' />
    <p className={`${styles.HowToSendATransaction}  py-2 md:py-4`}>How to send a transaction using #ethersjs and #alchemy</p>
    <div className='flex items-center text-[#333] text-xs md:text-sm pr-4'>

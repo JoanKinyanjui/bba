@@ -11,15 +11,16 @@ function Footer() {
               <img src='/images/logo.png'  className='mx-auto md:mx-0'/>
               <p className='text-[16px] py-4 '>© BBA 2023 All rights reserved </p>
             </div>
-         <div className='w-full md:w-full mx-auto md:mx-0 flex py-8 md:py-4 items-center md:items-start' >
+         <div className='w-full md:w-full mx-auto md:mx-0 flex py-8 md:py-4  md:items-start  text-[#757575]' >
          <div className='w-1/2 md:w-full mx-auto md:mx-0 text-center md:text-start text-[14px] '>
-             <p className='py-2' >Quick Links</p>
+             <p className='py-2 font-semibold text-[#0A0A0A]' >Quick Links</p>
              <p className='py-2' >All News</p>
+             <p className='py-2' >Learn</p>
              <p className='py-2' >Podcasts & Videos</p>
              <p className='py-2' >Dapp Store</p>
             </div>
             <div className='w-1/2 md:w-full mx-auto md:mx-0 text-center md:text-start text-[14px]'>
-             <p className='py-2' >Legal</p>
+             <p className='py-2 font-semibold text-[#0A0A0A]' >Legal</p>
              <p className='py-2' >Privacy Policy</p>
              <p className='py-2' >Terms & Conditions</p>
              <p className='py-2' >Affiliate Terms</p>
@@ -39,7 +40,7 @@ function Footer() {
             <p className='py-2'>Blockchain Buzz Africa is a media company working towardsblockchain adoption by providing insightful content for readers, viewersand commentators. </p>
             <p className='py-2'>Our Learning programs help our community gain an understanding of the industry, choose career paths and acquire skills on the same.</p>
             <p className='text-black text-[15px] py-2'>Connect with us on Social Media</p>
-            <div className='flex justify-between md:justify-start md:gap-[10px]  md:w-full md:mx-0 w-3/4 mx-auto py-2'>
+            <div className='flex justify-between md:justify-start md:gap-[10px]  md:w-full md:mx-0 w-[60%] mx-auto py-2'>
                 <div className={`${styles.BackgrounIcon} px-2`}>
                 <img src='/images/twittericon.png' />
                 </div>

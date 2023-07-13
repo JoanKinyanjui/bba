@@ -16,11 +16,11 @@ function Nav() {
        <div className='flex place-content-start'>
             <img  src='/images/logo.png'/>
         </div>
-        <div className=' w-3/4 lg:w-1/2 mx-auto text-center'>
+        <div className='  mx-auto text-center border'>
             <Link href='/'><p className={`${styles.BBAName}`}>BLOCKCHAIN BUZZ AFRICA</p></Link>
         </div>
        </div>
-       <div className='w-3/4 mx-auto py-4'>
+       <div className='w-1/3 mx-auto py-4'>
        <SpecNav />
        </div>
         </div>
@@ -32,7 +32,8 @@ function Nav() {
             <img  src='/images/menu.png '  className='w-[30px] h-[30px]'/>
         </div>
         <div>
-            <p className={`${styles.BBANameMobile}`}>BLOCKCHAIN BUZZ AFRICA</p>
+            {/* <p className={`${styles.BBANameMobile}`}>BLOCKCHAIN BUZZ AFRICA</p> */}
+            <img  src='/images/logo.png' className='w-[50px] h-[50px]'/>
         </div>
         </div>
         
