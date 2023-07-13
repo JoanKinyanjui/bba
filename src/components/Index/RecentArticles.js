@@ -24,7 +24,7 @@ function RecentArticles({word,show}) {
    <Link href={item.link} >
    <div className='flex justify-between items-center  py-4 md:py-8 ' key={item.id}>
    <div className={` w-[30%] h-[120px] md:h-[130px]`}>
-     <img   src = {item.image} className=' w-[100%] md:w-3/4 h-[90%] px-1  rounded-[10px] mx-auto my-auto' />
+     <img   src = {item.image} className=' w-[100%] md:w-[75%] h-[90%] px-1  md:h-[100%] rounded-[10px] mx-auto my-auto' />
    </div>
 
    <div className='grid w-[60%]  text-left px-1'>

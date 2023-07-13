@@ -16,11 +16,11 @@ function Nav() {
        <div className='flex place-content-start'>
             <img  src='/images/logo.png'/>
         </div>
-        <div className='  mx-auto text-center border'>
+        <div className='  mx-auto text-center '>
             <Link href='/'><p className={`${styles.BBAName}`}>BLOCKCHAIN BUZZ AFRICA</p></Link>
         </div>
        </div>
-       <div className='w-1/3 mx-auto py-4'>
+       <div className='w-1/2 mx-auto py-4'>
        <SpecNav />
        </div>
         </div>

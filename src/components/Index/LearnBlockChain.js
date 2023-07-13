@@ -11,7 +11,7 @@ function LearnBlockChain() {
                 <p className={`${styles.SubTitleHerePtag} pt-[20px] pb-[10px]`}>Blockchain Buzz Africa provides educational content for peers interested in learning the basics of blockchain, softwaredevelopement, web3, design and nfts.We use the following mediums to provide materials for you to kickstart your journey.</p>
 
 
-                <div className="w-[100%] flex  gap-[25px] pt-[20px]">
+                <div className="w-[100%] flex  pt-[20px]">
                     <div className={`${styles.LearnMoreDivs} w-[30%] grid place-content-center items-center`}>
                         <img src='/images/news.png' className='mx-auto py-2 md:py-4'/>
                         <p className={`${styles.NewsLearnWord}`}>NEWS</p>
@@ -26,7 +26,7 @@ function LearnBlockChain() {
                         <p className={`${styles.NewsLearnWord}`}>PODCASTS</p>
                     </div>
                     </div>
-                    <div className="w-[100%] flex gap-[25px] pb-[10px]">
+                    <div className="w-[100%] flex  pb-[10px]">
                     <div className={`${styles.LearnMoreDivs} w-[30%] grid place-content-center items-center`}>
                         <img src='/images/guidesicon.png.png'  className='mx-auto py-2 md:py-4'/>
                         <p className={`${styles.NewsLearnWord}`}>GUIDES</p>
